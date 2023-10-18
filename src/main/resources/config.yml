@@ -1,0 +1,23 @@
+headconfig:
+    #WIKUPLAYERHEAD by JayoXx_3
+    #https://www.spigotmc.org/resources/wikuplayerheads.112187/
+
+
+    #The name of the head
+    headname: "&a&lHead name"
+    #The command that will be executed
+    #ADVISE: The user needs to have the permission to execute this command
+    headcommand: '/tellraw @p {"extra":[{"bold":true,"color":"#5C9AFF","text":"This is a /tellraw example command!"},{"text":"\n"},{"color":"#2BFF00","extra":[{"bold":true,"color":"#FF2E6D","text":"config.yml"}],"text":"Edit this command in "}],"text":""}'
+    #The description of the head
+    #USE §. & DOESN'T WORK
+    headlore:
+        - "§aThis is a description!"
+        - "§6Line 1"
+        - "§eLine 2"
+        - "§6Use §3§ §6to use color codes"
+    #The slot of the head. Counting starts from 0, meaning that if you want to place the head in slot 3, you will need to put 2.
+    headslot: 3
+
+plugin:
+    #The message to send when the player dont have the wph.reloadconfig
+    nopermission: '&cYou dont have enought permissions to do that! &7(wph.reloadconfig)'

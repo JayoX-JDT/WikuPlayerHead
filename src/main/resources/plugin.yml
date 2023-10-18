@@ -1,0 +1,12 @@
+name: WikuPlayerHead
+version: 0.1.6
+main: wph.wikuplayerhead.WikuPlayerHead
+api-version: 1.18
+authors: [JayoXx_3]
+description: Give a item with the head of the player and execute a command
+softdepend: [PlaceholderAPI]
+commands:
+  wphreloadconfig:
+    description: Reload the config
+    aliases:
+      - wphr

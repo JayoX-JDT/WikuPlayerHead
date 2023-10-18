@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="WikuPlayerHead:jar">
+    <output-path>$PROJECT_DIR$/../../test-servers/plugins</output-path>
+    <root id="archive" name="WikuPlayerHead.jar">
+      <element id="module-output" name="WikuPlayerHead" />
+    </root>
+  </artifact>
+</component>
